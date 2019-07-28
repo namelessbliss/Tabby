@@ -4,20 +4,21 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="tab_title_first">Formulario</string>
-    <string name="tab_title_second">Lista</string>
-    <string name="fragment_form_label_person_name">Person Name</string>
-    <string name="fragment_form_label_country">Country</string>
-    <string name="fragment_form_label_create_person">Create Person</string>
+    <string name="tab_title_first">Form</string>
+    <string name="tab_title_second">List</string>
+
+    <string name="fragment_form_label_person_name">Nombre de Persona</string>
+    <string name="fragment_form_label_country">País de la Persona</string>
+    <string name="fragment_form_label_create_person">Crear Persona</string>
 
 
-    <string name="country_spain">Spain</string>
+    <string name="country_spain">España</string>
     <string name="country_argentina">Argentina</string>
     <string name="country_bolivia">Bolivia</string>
     <string name="country_chile">Chile</string>
-    <string name="country_peru">Peru</string>
+    <string name="country_peru">Perú</string>
     <string name="country_colombia">Colombia</string>
-    <string name="country_mexico">Mexico</string>
+    <string name="country_mexico">México</string>
     <string name="country_uruguay">Uruguay</string>
     <string name="country_ecuador">Ecuador</string>
     <string name="country_venezuela">Venezuela</string>

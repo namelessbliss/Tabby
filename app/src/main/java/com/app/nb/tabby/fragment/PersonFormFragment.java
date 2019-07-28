@@ -57,7 +57,7 @@ public class PersonFormFragment extends Fragment {
             }
         });
 
-        countries = Utils.getCountries();
+        countries = Utils.getCountries(getContext());
 
         ArrayAdapter<Country> adapter = new ArrayAdapter<>(getContext(), android.R.layout.simple_spinner_dropdown_item, countries);
         spinnerCountry.setAdapter(adapter);

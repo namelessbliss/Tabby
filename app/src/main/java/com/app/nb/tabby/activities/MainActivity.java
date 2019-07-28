@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity implements OnPersonCreated {
     private void setTabLayout() {
         //Estabece tabs necesarias
         tabLayout = findViewById(R.id.tabLayout);
-        tabLayout.addTab(tabLayout.newTab().setText("Formulario"));
-        tabLayout.addTab(tabLayout.newTab().setText("Lista"));
+        tabLayout.addTab(tabLayout.newTab().setText(getString(R.string.tab_title_first)));
+        tabLayout.addTab(tabLayout.newTab().setText(getString(R.string.tab_title_second)));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
     }
 
